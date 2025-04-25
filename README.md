@@ -92,11 +92,19 @@ which can match the results in Table 2,3 in our original paper.
 
 ### Illustration of our Frame model.
 
-<img src="image//Frame.png" width="90%" align=center />
+<div align="center">
+    <img src="image/Frame.png" width="100%" style="max-width: 1200px;" />
+</div>
 
 ### Qualitative fusion results.
 
-<img src="image//TNO_result.png" width="90%" align=center />
+#### TNO Dataset Results
+<div align="center">
+    <img src="image/TNO_result.png" width="100%" style="max-width: 1200px;" />
+</div>
 
-<img src="image//ROAD_reulst.png" width="60%" align=center />
+#### Road Scene Results
+<div align="center">
+    <img src="image/ROAD_reulst.png" width="100%" style="max-width: 1200px;" />
+</div>
 
