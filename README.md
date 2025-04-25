@@ -2,8 +2,7 @@
 
 ## Abstract
 With the rise of multimodal perception in applications such as monitoring, detection, and autonomous driving, infrared and visible image fusion has gained increasing attention for enhancing information representation and environmental awareness. Infrared images highlight targets in low-light conditions, while visible images provide rich texture details. However, due to the significant differences in
-their imaging mechanisms, achieving a balance among structural integrity, detail clarity, and realtime performance remains a major challenge. In view of the problem that existing methods are difficult to balance between structure preservation, detail restoration and computational overhead, this paper proposes a lightweight and efficient dual-domain collaborative fusion framework SFDFuse. This method combines the advantages of spatial domain and frequency domain modeling, improves modal consistency through the intensity-structure interaction mechanism, introduces learning-based frequency separation and adaptive enhancement modules to extract and enhance multi-scale detail information, and integrates global structure and local texture through a dynamic fusion strategy. Experimental results on multiple public datasets show that SFDFuse is superior to current mainstream. methods in terms of structural restoration, detail clarity and fusion quality, and has extremely low
-computational cost and excellent real-time performance. It is suitable for multimodal image fusion tasks in edge computing and resource-constrained scenarios
+their imaging mechanisms, achieving a balance among structural integrity, detail clarity, and realtime performance remains a major challenge. In view of the problem that existing methods are difficult to balance between structure preservation, detail restoration and computational overhead, this paper proposes a lightweight and efficient dual-domain collaborative fusion framework SFDFuse. This method combines the advantages of spatial domain and frequency domain modeling, improves modal consistency through the intensity-structure interaction mechanism, introduces learning-based frequency separation and adaptive enhancement modules to extract and enhance multi-scale detail information, and integrates global structure and local texture through a dynamic fusion strategy. Experimental results on multiple public datasets show that SFDFuse is superior to current mainstream. methods in terms of structural restoration, detail clarity and fusion quality, and has extremely low computational cost and excellent real-time performance. It is suitable for multimodal image fusion tasks in edge computing and resource-constrained scenarios
 
 ### ⚙ Network Architecture
 
@@ -36,7 +35,7 @@ tqdm==4.66.4
 
 Download the MSRS dataset from [this link](https://github.com/Linfeng-Tang/MSRS) and place it in the folder ``'./MSRS_train/'``.
 
-**3. CDDFuse Training**
+**3. SFDFuse Training**
 
 Run 
 1. Stage 1 Training:
