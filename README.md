@@ -6,7 +6,7 @@ their imaging mechanisms, achieving a balance among structural integrity, detail
 
 ### ⚙ Network Architecture
 
-Our SFDFuse is implemented in ``net.py``.
+**The complete implementation code, including training scripts and loss functions, will be made publicly available after the paper is published. Currently, we only provide the basic framework and test code for reference.**
 
 ### 🏊 Training
 **1. Virtual Environment**
@@ -106,4 +106,10 @@ which can match the results in Table 2,3 in our original paper.
 <div align="center">
     <img src="image/ROAD_reulst.png" width="100%" style="max-width: 1200px;" />
 </div>
+
+## 📝 Citation
+Coming soon after publication.
+
+## 📧 Contact
+For any questions about the implementation, please feel free to open an issue.
 
