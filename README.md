@@ -108,7 +108,18 @@ which can match the results in Table 2,3 in our original paper.
 </div>
 
 ## 📝 Citation
-Coming soon after publication.
+If this code is helpful to you, please cite it:
+@article{ZHAO2026113634,
+title = {SFDFuse: A lightweight spatial-frequency fusion network for infrared-visible images},
+journal = {Pattern Recognition},
+volume = {179},
+pages = {113634},
+year = {2026},
+issn = {0031-3203},
+doi = {https://doi.org/10.1016/j.patcog.2026.113634},
+url = {https://www.sciencedirect.com/science/article/pii/S0031320326005996},
+author = {Hongyang Zhao and Tao Jiang and Xingdong Li and Jing Jin},
+}
 
 ## 📧 Contact
 For any questions about the implementation, please feel free to open an issue.
